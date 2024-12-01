@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 titles = []
-search_word = '고려대학교'
+search_word = '에스파'
 url = f'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query={search_word}'
 req = requests.get(url)
 html = req.text
