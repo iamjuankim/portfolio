@@ -14,7 +14,7 @@ Conducted big data analysis using R.
 
 ## 2. ImageSorter
 
-A project utilizing Python's TensorFlow library to analyze the actual quality of uploaded images and compress them to reduce file size.
+A project utilizing Python's TensorFlow library to analyze the actual quality of uploaded images and compress them to reduce file size. **The project is currently ongoing.**
 
 ### Files:
 - **img_create.py**:
