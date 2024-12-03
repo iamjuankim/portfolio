@@ -29,3 +29,60 @@ portfolio 폴더에는 제가 지금까지 진행한 Python, R 프로젝트의 �
 **4. Connect4**
 
    4목 형태의 유명 게임 Connect4를 파이썬을 활용해 제작하였습니다. 다양한 반복문을 활용해 두명의 플레이어가 번갈아가며 원하는 칸을 선택해 게임을 진행할 수 있게끔 했습니다. 
+
+
+
+# Portfolio
+
+This repository showcases the projects I have worked on using Python and R. Each project highlights specific skills and methodologies I have developed during my learning journey.
+
+## 1. R
+
+Conducted big data analysis using R.
+- **education.dat**: Dataset containing information about 1,000 students, including their residential areas, desired career fields, and hours spent on private tutoring.
+- **Analysis**:
+  - Calculated statistical measures such as the mean, median, and interquartile range (IQR).
+  - Visualized data using histograms, side-by-side bar charts, and scatter plots.
+
+---
+
+## 2. ImageSorter
+
+A project utilizing Python's TensorFlow library to analyze the actual quality of uploaded images and compress them to reduce file size.
+
+### Files:
+- **img_create.py**:
+  - Crops 20 32x32 images from pre-prepared 2560x1440 image data (50 images per resolution).
+  - Scales cropped images up by a factor of 10 to create a dataset of 1,000 images for supervised learning.
+- **img_split.py**:
+  - Splits the dataset into 80% for training and 20% for validation to prevent overfitting.
+  - Randomly divides 1,000 images per resolution into `train` and `test` folders.
+- **img_sort.py**:
+  - Trains a Convolutional Neural Network (CNN) model with 7,000 images.
+  - Saves the trained model in Keras format.
+  - Uses only basic data augmentations (horizontal and vertical flipping) to preserve pixel integrity.
+  - Sets the Epoch to 10 for training.
+
+---
+
+## 3. Crawling
+
+Various projects related to web crawling using Python.
+
+### Files:
+- **crawling.py**:
+  - A script that scrapes the titles of top articles displayed on Naver when a specific search term is entered.
+- **wordcloud.py**:
+  - Generates a tree-shaped word cloud from portal keywords related to Christmas.
+  - Sample output: `tree.png`.
+
+---
+
+## 4. Connect4
+
+A Python implementation of the classic Connect4 game.
+- Enables two players to take turns selecting cells using various loops.
+
+---
+
+Feel free to explore the projects, and let me know if you have any questions or feedback!
