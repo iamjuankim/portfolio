@@ -38,9 +38,10 @@ Various projects related to web crawling using Python.
 ### Files:
 - **crawling.py**:
   - A script that scrapes the titles of top articles displayed on Naver when a specific search term is entered.
-- **wordcloud.py**:
+- **워드클라우드.py**:
   - Generates a tree-shaped word cloud from portal keywords related to Christmas.
   - Sample output: `tree.png`.
+  - Note: I used a Korean file title to prevent a circular import error or ImportError that might occur when having the same file title as a pre-existing library name.
 
 ---
 
